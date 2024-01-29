@@ -14,10 +14,8 @@
   gtag('config', 'G-NV8N8KMTCL');
 </script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    
+<link rel="stylesheet" href="https://use.typekit.net/oti3vhy.css">
+
     <style>
         body {
             background-color: #48484a;
@@ -40,6 +38,8 @@
             height: 797px;
             background-image: linear-gradient(180deg, #FFF7F7 0%, #FFEDED 100%);
             position: relative;
+
+            user-select: none;
         }
 
         .right {
@@ -58,6 +58,16 @@
             height: 180px;
             background: rgba(0, 0, 0, 0.58);
         }
+
+        .saku-title {
+            font-family: 'MyriadPro-Regular';
+            font-size: 34px;
+            color: #FFFFFF;
+            letter-spacing: 0.37px;
+            position: absolute;
+            right: 55px;
+            bottom: 34px;
+        }
 		
 		.main-image {
 		background-image: url('images/main-visual-1.jpeg');
@@ -75,15 +85,18 @@
         .icon {
             width: 135px;
             height: 135px;
-            background: url('images/icon.png'); /* Replace with your icon URL */
+            background: url('images/icon.png');
             background-size: cover;
             position: absolute;
             top: 25px;
             left: 25px;
+            pointer-events: none;
         }
 		
 		.icon-text {
-			font-family: "Roboto", sans-serif;
+            font-family: "basic-sans", sans-serif;
+            font-weight: 600;
+            font-style: normal;
 			font-size: 43px;
 			color: #661C1C;
 			letter-spacing: 0.47px;
@@ -156,6 +169,7 @@
 
         </div>
         <div class="right">
+        <div class="saku-title">SakuTrack iOS app</div>
 		<div class="main-image">
 		</div>
     </div>
