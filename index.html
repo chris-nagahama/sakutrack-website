@@ -34,18 +34,15 @@
             background: #D8D8D8;
 			overflow: hidden;
         }
-		
-/*
-		.main-image {
-			
-			width: 990px;
-			height: 797px;
-			object-fit: cover;
-    		overflow: hidden;
-			
-			pointer-events: none;
-		}
-*/
+
+        .right::after {
+            content: "";
+            position: absolute;
+            bottom: 48px;
+            width: 100%;
+            height: 180px;
+            background: rgba(0, 0, 0, 0.58);
+        }
 		
 		.main-image {
 		background-image: url('images/main-visual-1.jpeg');
