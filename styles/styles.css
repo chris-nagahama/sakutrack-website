@@ -1,6 +1,7 @@
 body {
     /*background-color: #48484a;*/
-    background-color: #2C2C2E;
+    /*background-color: #2C2C2E;*/
+    background-color: #2E2E38;
     margin: 0;
     padding: 0;
     display: flex;
@@ -112,7 +113,7 @@ body {
     height: 60px;
     margin: auto;
 
-    /*pointer-events: none;*/
+    pointer-events: none;
 }
 
 .title-group {
