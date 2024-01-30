@@ -1,1 +1,177 @@
+<style>
+body {
+    background-color: #48484a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
 
+.container {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.left {
+    width: 335px;
+    height: 797px;
+    background-image: linear-gradient(180deg, #FFF7F7 0%, #FFEDED 100%);
+    position: relative;
+
+    user-select: none;
+}
+
+.right {
+    position: relative;
+    width: 990px;
+    height: 797px;
+    background: #D8D8D8;
+    overflow: hidden;
+}
+
+.rectangle-black {
+    position: absolute;
+    bottom: 48px;
+    width: 100%;
+    height: 180px;
+    background: rgba(0, 0, 0, 0.58);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.app-title {
+    position: absolute;
+    /*top: 34px;*/
+    /*left: 55px;*/
+    font-family: 'MyriadPro-Regular';
+    font-size: 34px;
+    color: #FFFFFF;
+    letter-spacing: 0.37px;
+}
+
+.app-sub-title {
+    font-family: PingFangSC-Regular;
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: 0.24px;
+    position: absolute;
+    /*left: 55px;*/
+    /*bottom: 35px;*/
+}
+
+.ampersand {
+    font-family: PingFangSC-Medium;
+    font-size: 22px;
+    color: #FF2D55;
+    letter-spacing: 0.24px;
+}
+
+.app-title,
+.app-sub-title,
+.app-title-line {
+    margin-bottom: 8px;
+}
+
+.app-title-line {
+    margin-top: 8px;
+}
+
+.main-image {
+    background-image: url('images/main-visual-1.jpeg');
+    background-size: 1702.5px 1135px;
+    background-position: -247.75px -169px;
+    background-repeat: no-repeat;
+    width: 990px;
+    height: 797px;
+    object-fit: cover;
+    overflow: hidden;
+
+    pointer-events: none;
+}
+
+.icon {
+    width: 135px;
+    height: 135px;
+    background: url('images/icon.png');
+    background-size: cover;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    pointer-events: none;
+}
+
+.icon-text {
+    font-family: "basic-sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 43px;
+    color: #661C1C;
+    letter-spacing: 0.47px;
+    position: absolute;
+    left: 25px;
+    top: 185px;
+}
+
+.feature-text {
+    font-family: 'PingFangSC-Regular';
+    font-size: 32px;
+    color: #222222;
+    letter-spacing: 0.36px;
+    position: absolute;
+    left: 25px;
+    top: 238px;
+}
+
+.line {
+    position: absolute; /* Set position to absolute */
+    top: 290px; /* Set distance from the top of .left */
+    left: 25px; /* Set distance from the left of .left */
+    width: 285px; /* Set width */
+    border-top: 2px solid #661C1C; /* Set border */
+}
+
+.app-title-line {
+    position: absolute;
+    /*left: 55px;*/
+    /*top: 77px;*/
+    width: 432px;
+    border-top: 2px solid #FFFFFF;
+}
+
+.svg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateX(65px) translateY(40px);
+    clip-path: inset(0px 65px 40px 0px);
+}
+
+/* Styles for the back to top button */
+#back-to-top {
+    width: 84px;
+    height: 84px;
+    background-image: url('images/chevron.up.svg'), linear-gradient(180deg, #FFBB43 0%, #FEA50A 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+</style>
