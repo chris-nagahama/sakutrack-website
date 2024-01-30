@@ -54,15 +54,10 @@ body {
     background-repeat: no-repeat;
 }
 
-.app-store-button {
-    background-image: url('../images/app-store-download.png');
-    background-size: 180px 60px;
-    /*background-position: -247.75px -169px;*/
-    background-repeat: no-repeat;
+.app-store-button-image {
+    position: relative;
     width: 180px;
     height: 60px;
-    object-fit: cover;
-    overflow: hidden;
 
     pointer-events: none;
 }
@@ -75,9 +70,6 @@ body {
 }
 
 .app-title {
-    /*position: absolute;*/
-    /*top: 34px;*/
-    /*left: 55px;*/
     font-family: 'MyriadPro-Regular', serif;
     font-size: 34px;
     color: #FFFFFF;
@@ -89,9 +81,6 @@ body {
     font-size: 22px;
     color: #FFFFFF;
     letter-spacing: 0.24px;
-    /*position: absolute;*/
-    /*left: 55px;*/
-    /*bottom: 35px;*/
 }
 
 .ampersand {
