@@ -59,25 +59,32 @@
             background: rgba(0, 0, 0, 0.58);
         }
 
-        /*.right::after {*/
-        /*    z-index: 1;*/
-        /*    content: "";*/
-        /*    position: absolute;*/
-        /*    bottom: 48px;*/
-        /*    width: 100%;*/
-        /*    height: 180px;*/
-        /*    background: rgba(0, 0, 0, 0.58);*/
-        /*}*/
-
-        .saku-title {
-            z-index: 2;
+        .app-title {
+            position: absolute;
+            top: 34px;
+            left: 55px;
             font-family: 'MyriadPro-Regular';
             font-size: 34px;
             color: #FFFFFF;
             letter-spacing: 0.37px;
+        }
+
+        .app-sub-title {
+            font-family: PingFangSC-Regular;
+            font-size: 22px;
+            color: #FFFFFF;
+            letter-spacing: 0.24px;
             position: absolute;
-            right: 55px;
-            bottom: 34px;
+            left: 55px;
+            bottom: 35px;
+        }
+
+        .ampersand {
+            font-family: PingFangSC-Medium;
+            font-size: 22px;
+            color: #FF2D55;
+            letter-spacing: 0.24px;
+            /*left: 55px;*/
         }
 		
 		.main-image {
@@ -133,6 +140,14 @@
 			width: 285px; /* Set width */
 			border-top: 2px solid #661C1C; /* Set border */
 		}
+
+        .app-title-line {
+            position: absolute;
+            left: 55px;
+            top: 77px;
+            width: 432px;
+            border-top: 2px solid #FFFFFF;
+        }
 		
 		.svg {
 			position: absolute;
@@ -173,9 +188,14 @@
 			</div>
 
         </div>
+
         <div class="right">
-            <div class="saku-title">SakuTrack iOS app</div>
-            <div class="rectangle-black"></div>
+
+            <div class="rectangle-black">
+                <div class="app-title">SakuTrack iOS app</div>
+                <div class="app-title-line"></div>
+                <div class="app-sub-title">此刻，你<span class="ampersand"> & </span>偶像的距离<br>从未如此——近在咫尺。</div>
+            </div>
 		    <div class="main-image">
 		</div>
     </div>
