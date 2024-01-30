@@ -77,18 +77,8 @@ body {
     letter-spacing: 0.24px;
 }
 
-/*.app-title,*/
-/*.app-sub-title,*/
-/*.app-title-line {*/
-/*    margin-bottom: 8px;*/
-/*}*/
-
-/*.app-title-line {*/
-/*    margin-top: 8px;*/
-/*}*/
-
 .main-image {
-    background-image: url('images/main-visual-1.jpeg');
+    background-image: url('../images/main-visual-1.jpeg');
     background-size: 1702.5px 1135px;
     background-position: -247.75px -169px;
     background-repeat: no-repeat;
@@ -103,7 +93,7 @@ body {
 .icon {
     width: 135px;
     height: 135px;
-    background: url('images/icon.png');
+    background: url('../images/icon.png');
     background-size: cover;
     position: absolute;
     top: 25px;
