@@ -39,9 +39,9 @@ body {
     background: rgba(0, 0, 0, 0.58);
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    flex-direction: column;
+    padding-left: 55px;
 }
 
 .title-group {
@@ -49,22 +49,20 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    position: absolute;
-    left: 55px;
 }
 
 .app-title {
     /*position: absolute;*/
     /*top: 34px;*/
     /*left: 55px;*/
-    font-family: 'MyriadPro-Regular';
+    font-family: 'MyriadPro-Regular', serif;
     font-size: 34px;
     color: #FFFFFF;
     letter-spacing: 0.37px;
 }
 
 .app-title-content {
-    font-family: PingFangSC-Regular;
+    font-family: PingFangSC-Regular, serif;
     font-size: 22px;
     color: #FFFFFF;
     letter-spacing: 0.24px;
@@ -74,7 +72,7 @@ body {
 }
 
 .ampersand {
-    font-family: PingFangSC-Medium;
+    font-family: PingFangSC-Medium, serif;
     font-size: 22px;
     color: #FF2D55;
     letter-spacing: 0.24px;
@@ -117,7 +115,7 @@ body {
 }
 
 .feature-text {
-    font-family: 'PingFangSC-Regular';
+    font-family: 'PingFangSC-Regular', serif;
     font-size: 32px;
     color: #222222;
     letter-spacing: 0.36px;
