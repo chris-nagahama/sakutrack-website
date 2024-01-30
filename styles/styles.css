@@ -64,6 +64,13 @@ body {
     /*margin-left: 0px;*/
 }
 
+.follow-bg p {
+    font-family: PingFangSC-Medium, serif;
+    font-size: 22px;
+    color: #331F02;
+    letter-spacing: 0.25px;
+}
+
 .rectangle-black {
     position: absolute;
     bottom: 48px;
