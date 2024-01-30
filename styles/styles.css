@@ -60,7 +60,7 @@ body {
     letter-spacing: 0.37px;
 }
 
-.app-sub-title {
+.app-title-content {
     font-family: PingFangSC-Regular;
     font-size: 22px;
     color: #FFFFFF;
@@ -77,15 +77,15 @@ body {
     letter-spacing: 0.24px;
 }
 
-.app-title,
-.app-sub-title,
-.app-title-line {
-    margin-bottom: 8px;
-}
+/*.app-title,*/
+/*.app-sub-title,*/
+/*.app-title-line {*/
+/*    margin-bottom: 8px;*/
+/*}*/
 
-.app-title-line {
-    margin-top: 8px;
-}
+/*.app-title-line {*/
+/*    margin-top: 8px;*/
+/*}*/
 
 .main-image {
     background-image: url('images/main-visual-1.jpeg');
@@ -111,7 +111,7 @@ body {
     pointer-events: none;
 }
 
-.icon-text {
+.icon-app-text {
     font-family: "basic-sans", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -141,7 +141,7 @@ body {
     border-top: 2px solid #661C1C; /* Set border */
 }
 
-.app-title-line {
+.app-title-divide-line {
     position: absolute;
     /*left: 55px;*/
     /*top: 77px;*/
