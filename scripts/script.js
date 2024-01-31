@@ -1,5 +1,5 @@
 // 获取语言切换按钮、语言选择界面和所有的语言选项按钮
-var languageSwitcher = document.getElementById('language-switcher');
+var languageSwitcher = document.getElementById('language-switcher-button');
 var languageSelection = document.getElementById('language-selection');
 var languageOptions = document.getElementsByClassName('language-option');
 var closeButton = document.getElementById('close-button');
