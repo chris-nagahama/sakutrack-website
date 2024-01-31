@@ -10,6 +10,46 @@ body {
     min-height: 100vh;
 }
 
+#language-switcher {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    right: 350px;
+    pointer-events: none;
+}
+
+#language-switcher-button {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+#language-selection {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(180deg, #00B2FF 0%, #007AFF 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-option, #close-button {
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'PingFangSC-Medium', sans-serif;
+    font-size: 34px;
+    color: #FFFFFF;
+    letter-spacing: 0.37px;
+    cursor: pointer;
+}
+
 .container {
     display: flex;
     gap: 15px;

@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>SakuTrack iOS app | 此刻，你 & 偶像近在咫尺。</title>
 <link rel="icon" href="favicon.png" type="image/x-icon">
+<link rel="apple-touch-icon" href="favicon.png">
 <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
 <!-- Google tag (gtag.js) -->
@@ -20,6 +21,19 @@
 
 </head>
 <body>
+    <div id="language-switcher">
+        <button id="language-switcher-button">
+            <img src="../images/language-switcher/chinese.svg" alt="切换语言">
+        </button>
+    </div>
+
+    <div id="language-selection" style="display: none;">
+        <button class="language-option">中文</button>
+        <button class="language-option">English</button>
+        <button class="language-option">日本語</button>
+        <button id="close-button">CLOSE</button>
+    </div>
+
     <div class="container">
         <div class="top-left-right">
             <div class="left">
@@ -76,6 +90,6 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     </script>
-	
+    <script src="scripts/script.js"></script>
 </body>
 </html>
