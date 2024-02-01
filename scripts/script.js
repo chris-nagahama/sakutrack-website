@@ -1,5 +1,5 @@
 // 获取语言切换按钮、语言选择界面和所有的语言选项按钮
-var languageSwitcher = document.getElementById('language-switcher-button');
+var languageSwitcher = document.getElementById('language-button');
 var languageSelection = document.getElementById('language-selection');
 var languageOptions = document.getElementsByClassName('language-option');
 var closeButton = document.getElementById('close-button');
@@ -22,3 +22,7 @@ for (var i = 0; i < languageOptions.length; i++) {
         // 你也可以根据选中的语言来更新 SVG 图片的 src 属性
     });
 }
+
+document.getElementById('language-switcher-svg').addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});

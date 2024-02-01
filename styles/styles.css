@@ -14,10 +14,10 @@ body {
     position: fixed;
     top: 0;
     right: 350px;
-    pointer-events: none;
+    /*pointer-events: none;*/
 }
 
-#language-switcher-button {
+#language-button {
     border: none;
     background: none;
     padding: 0;
