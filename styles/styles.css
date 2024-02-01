@@ -164,7 +164,8 @@ body {
 }
 
 .app-title {
-    font-family: 'MyriadPro-Regular', serif;
+    /*font-family: 'MyriadPro-Regular', serif;*/
+    font-family: "basic-sans", sans-serif;
     font-size: 34px;
     color: #FFFFFF;
     letter-spacing: 0.37px;
@@ -246,7 +247,7 @@ body {
     border-top: 2px solid #FFFFFF;
 }
 
-.svg {
+.two-flowers {
     position: absolute;
     right: 0;
     bottom: 0;
