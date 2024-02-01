@@ -31,10 +31,13 @@ body {
     bottom: 0;
     left: 0;
     background-image: linear-gradient(180deg, #00B2FF 0%, #007AFF 100%);
-    display: flex;
+    /*display: none; !* 原来是 flex *!*/
+    visibility: hidden; /* 修改这里 */
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0.5s;
 }
 
 .language-option, #close-button {

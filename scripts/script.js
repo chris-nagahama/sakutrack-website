@@ -26,3 +26,18 @@ for (var i = 0; i < languageOptions.length; i++) {
 document.getElementById('language-switcher-svg').addEventListener('contextmenu', function(e) {
     e.preventDefault();
 });
+
+languageSwitcher.addEventListener('click',function () {
+    // languageSelection.style.display = 'flex';
+    languageSelection.style.visibility = 'visible';
+    setTimeout(function () {
+        languageSelection.style.opacity = '1';
+    }, 0);
+});
+
+closeButton.addEventListener('click', function() {
+    languageSelection.style.opacity = '0';
+    setTimeout(function() {
+        languageSelection.style.visibility = 'hidden';
+    }, 500); // 这个值应该和 transition 的时间相同
+});
